@@ -15,6 +15,6 @@ RUN npm install
 # Specfifes port that will be exposed for given container
 EXPOSE 3000
 # Defines environment variables that are avaiable within the container
-ENV SECRET_WORD TwelveFactor
+ENV SECRET_WORD Hello_This_is_test_REARC
 # Executes the start command
 CMD ["npm", "start"]
